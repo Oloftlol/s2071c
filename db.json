@@ -1,26 +1,51 @@
-  {
-    "pets":[
+{
+  "users": [
     {
-      "id": "1",
-      "type": "dog",
-      "name": "Fido"
-  },
-  {
-      "id": "2",
-      "type": "cat",
-      "name": "Garfield"
-  }
+      "id": "1234abc",
+      "username": "bear",
+      "score": 55,
+      "active": true
+    },
+    {
+      "id": "xyz123",
+      "username": "schmeb",
+      "score": 550,
+      "active": false
+    },
+    {
+      "id": "qwerty",
+      "username": "jed",
+      "score": 553,
+      "active": true
+    },
+    {
+      "username": "bear",
+      "score": 55,
+      "active": true,
+      "id": "i1HYeyQ"
+    },
+    {
+      "username": "bearsept7",
+      "score": 66,
+      "active": true,
+      "id": "EN4bl4a"
+    }
   ],
-    "owner": [
+  "attempts": [
     {
-      "id": "1",
-      "name": "Olof",
-      "petID": "1"
-  },
-    { 
-      "id": "2",
-      "name": "Eric",
-      "petID": "2"
-      }
-    ]
-   }
+      "id": "a1",
+      "score": 5,
+      "userId": "qwerty"
+    },
+    {
+      "id": "bb2",
+      "score": 3,
+      "userId": "xyz123"
+    },
+    {
+      "id": "999",
+      "score": 8,
+      "userId": "qwerty"
+    }
+  ]
+}
